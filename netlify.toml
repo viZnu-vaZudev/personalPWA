@@ -1,2 +1,7 @@
 [build]
   publish = "dist/mycompass/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
